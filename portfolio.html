@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -12,7 +13,9 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
+    <header class="section">
+
+        <div class="container">
         <nav>
             <a lang="en" class="logo" href="./index.html"><span class="logo-conteiner">Web</span>Studio</a>
             <ul class="nav">
@@ -35,12 +38,15 @@
                 <a class="mail-link" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
         </ul>
+        </div>
+
     </header>
 
     <main>
 
-        <section>
+        <section class="section">
 
+            <div class="container">
             <h1 class="visually-hidden">
                 Портфоліо
             </h1>
@@ -146,29 +152,33 @@
                 </p>
             </li>
         </ul>
+        </div>
 
         </section>
 
     </main>
 
-    <footer>
+    <footer class="section">
 
+        <div class="container">
         <a lang="en" class="logotipes" href="./index.html"><span class="logo-conteiner">Web</span>Studio</a>
         <address class="address">
-            <ul>
+            <ul class="address-list lists">
                 <li>
-                    <a class="address-name" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow">
+                    <a class="address-name mails" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow">
                         м. Київ, пр-т Лесі
                         Українки, 26</a>
                 </li>
                 <li>
-                    <a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a class="address-link mails" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
                 <li>
                     <a class="address-link" href="tel:+380961111111">+38 096 111 11 11</a>
                 </li>
         
             </ul>
+            </div>
+            
         </address>
 
     </footer>

@@ -25,6 +25,10 @@ body {
 .lists {
    list-style: none;
 }
+.section {
+   padding-top: 94px;
+   padding-bottom: 94px;
+}
 
 /* Контейнер */
 .container {
@@ -34,7 +38,7 @@ body {
    padding: 0% 15px 0% 15px;
    }
 .header-container {
-   padding-bottom: 1px;
+   border: 1px;
 }
 
 h1,
@@ -106,9 +110,7 @@ p {
    font-size: 44px;
    line-height: 1.36;
    
-   margin-bottom: 30px;
-   padding-top: 200px;
-   padding-bottom: 280px;
+   margin-bottom: 30px;    
    letter-spacing: 0.06em;
    text-transform: uppercase;
    color: var(--White);
@@ -119,8 +121,9 @@ p {
    font-size: 16px;
    line-height: 1.87;
 
-   display: flex;
-   text-align: center;
+   margin-right: auto;
+   margin-left: auto;
+   display: block;
    letter-spacing: 0.06em;
    border-radius: 4px;
    color: var(--White);
@@ -133,9 +136,6 @@ p {
 }
 
 /* Преимущества */
-.features {
-   margin-top: 94px;
-}
 .visually-hidden {
    position: absolute;
    white-space: nowrap;
@@ -164,6 +164,8 @@ p {
 
 /* works photo */
 .work-title {
+   margin-bottom: 50px;
+
    font-weight: 700;
    font-size: 36px;
    line-height: 1.16;
@@ -173,6 +175,8 @@ p {
 
 /* Команда */
 .command-title {
+   margin-bottom: 50px;
+
    font-weight: 700;
    font-size: 36px;
    line-height: 1.16;
@@ -203,6 +207,12 @@ p {
    text-decoration: none;
    color: var(--White);
 }
+
+/* Лого футер */
+.logotipes {
+   display: flex;
+   margin-bottom: 20px;
+}
 /* Адрес */
 .address {
    font-family: 'Roboto';
@@ -210,7 +220,12 @@ p {
    letter-spacing: 0.03em;
    background-color: var(--secondaly);
 }
+.mails {
+   display: flex;
+   margin-bottom: 9px;
+}
 .address-name {
+   
    line-height: 1.7;
    color: var(--White);
    text-decoration: none;
@@ -226,19 +241,24 @@ p {
 }
 
 /* Портфолио */
+.button-list {
+   display: flex;
+   margin-bottom: 34px;
+}
 .button-list-item {
    font-family: 'Roboto';
    font-weight: 500;
    font-size: 16px;
    line-height: 1.62;
    letter-spacing: 0.03em;
+
    background: #F5F4FA;
    color: var(--primery-text-color);
+   border-radius: 4px;
 }
 .button-list-item:hover {
    background: var(--acent-color);
    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-   border-radius: 4px;
    cursor: pointer;
 }
 .reclam-list {
