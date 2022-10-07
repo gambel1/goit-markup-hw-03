@@ -359,13 +359,12 @@ margin-right: 0%;
    cursor: pointer;
 }
 .reclam {
-   gap: 10px;
    display: flex;
    align-items: flex-start;
-   flex-wrap: wrap
-   ;
-   margin-right: 30px;
-   width: 370px;
+   flex-wrap: wrap;   
+}
+.flex-element {
+   margin: 30px 30px 30px 0%;
 }
 .reclam-tools {
    padding: 20px 24px;
