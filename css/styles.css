@@ -57,10 +57,13 @@ p {
 }
 
 /* Хедер */
+header {
+   padding: 32px 0%;
+   border-bottom: 1px solid #ECECEC;
+}
 .header-container {
    display: flex;
    align-items: center;
-   border-bottom: 1px solid #ECECEC;
 }
 /* Навигация */
 .main-nav {
@@ -83,7 +86,6 @@ p {
 }
 .nav {
    display: flex;
-   padding: 32px 0%;
    margin-left: 93px;
 }
 nav li {
@@ -290,6 +292,9 @@ nav li:last-child {
 }
 
 /* Футер */
+footer {
+   padding: 60px 0%;
+}
 .logotipes {
    font-family: 'Raleway';
    font-weight: 700;
@@ -307,7 +312,6 @@ nav li:last-child {
 } 
 /* Адрес */
 .address {
-   padding: 60px 0% 60px 0%;
    font-family: 'Roboto';
    font-style: normal;
    letter-spacing: 0.03em;
@@ -335,16 +339,18 @@ nav li:last-child {
 .button-list {
    display: flex;
    justify-content: center;
-   margin-bottom: 34px;
+   margin-bottom: 50px;
    text-align: center;
 }
 .button-list li {
-   margin-right: 9px;
+   margin-right: 8px;
 }
 .button-list li:last-child {
    margin-right: 0%;
 }
 .button-list-item {
+   padding: 6px 32px;
+   
    font-family: 'Roboto';
    font-weight: 500;
    font-size: 16px;
